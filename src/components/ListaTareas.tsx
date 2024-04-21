@@ -5,7 +5,7 @@ type ListaTareas = {
     borrarTarea: (index: number) => void
 }
 
-const ListaTareas = ({ listaTareas, borrarTarea }: Props) => {
+const ListaTareas = ({ listaTareas, borrarTarea }: ListaTareas) => {
     return (
         <div className="tasklist">
             {listaTareas.map((tarea, index) => (

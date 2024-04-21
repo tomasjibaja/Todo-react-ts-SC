@@ -3,7 +3,7 @@ type Tarea = {
     borrarTarea: () => void
 }
 
-const Tarea = ({ tarea, borrarTarea }) => {
+const Tarea = ({ tarea, borrarTarea }: Tarea) => {
     return (
         <div className="task">
             <span>{tarea}</span>
